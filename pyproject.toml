@@ -1,0 +1,15 @@
+[project]
+name = "langpets"
+version = "0.1.0"
+description = "A terminal turtle pet you can feed, play with, or smack."
+authors = [{ name = "Jacob Langlois", email = "23langloisj@gmail.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = ["rich"]
+
+[project.scripts]
+langpets = "langpets.cli:run"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
