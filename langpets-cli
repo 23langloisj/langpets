@@ -8,10 +8,6 @@ import time, threading, sys, queue
 
 console = Console()
 
-# -------------------------------
-# Everything from your langpets module
-# -------------------------------
-
 class Pet:
     def __init__(self, name="Turtly"):
         self.name = name
@@ -164,9 +160,5 @@ def run():
 
             time.sleep(0.6)
 
-
-# -------------------------------
-# Main entry point
-# -------------------------------
 if __name__ == "__main__":
     run()
